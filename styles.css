@@ -97,7 +97,7 @@ center {
 @media screen and (max-width: 393px) {
 
     #main-wrapper {
-        height: 100lvh;
+        height: 100vh;
         width: 100%;
         border-radius: 1px;
         overflow: auto;
@@ -114,12 +114,13 @@ center {
     }
 
     #banner {
-        height: 120PX;
+        display: none;
     }
 
     #profile-picture-container > img {
-        height: 140px;
-        width: 140px;
+        height: 120px;
+        width: 120px;
+        margin: 20px;
     }
 
     center {
