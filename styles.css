@@ -95,22 +95,22 @@ center {
 }
 
 @media screen and (max-width: 393px) {
-    
+
     #main-wrapper {
-        height: 100vh;
+        height: 100lvh;
         width: 100%;
         border-radius: 1px;
-        overflow: hidden;
+        overflow: auto;
     }
 
     #links-container {
-        margin-top: 60px;
+        margin-top: 40px;
         gap: 30px;
     }
 
     .l-wrapper {
         font-size: 1.6rem;
-        width: 140%;
+        width: 120%;
     }
 
     #banner {
@@ -118,8 +118,8 @@ center {
     }
 
     #profile-picture-container > img {
-        height: 150px;
-        width: 150px;
+        height: 140px;
+        width: 140px;
     }
 
     center {
