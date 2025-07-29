@@ -15,7 +15,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
+    height: fit-content;
     width: 350px;
     border-radius: 20px;
     border-top: 1px solid #C58940;
@@ -97,7 +97,7 @@ center {
 @media screen and (max-width: 393px) {
 
     #main-wrapper {
-        height: 100vh;
+        height: 100lvh;
         width: 100%;
         border-radius: 1px;
         overflow: auto;
